@@ -1,7 +1,7 @@
 /* google fonts- Azeret Mono */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
- /* univarsal style  */
+ /* universal style  */
 * {
    padding: 0;
    margin: 0;
@@ -35,6 +35,7 @@ body {
    margin-bottom: 48px;
    opacity: 0.7;
 }
+
 
 /* banner styles */
 .banner {
@@ -78,9 +79,7 @@ body {
    margin-bottom: 24px;
    opacity: 0.7;
 }
-
 .banner-btn {
-   color: rgb(255, 255, 255);
    font-family: Azeret Mono;
    font-size: 20px;
    font-weight: 600;
@@ -91,6 +90,11 @@ body {
    margin: 0 auto;
    display: block;
 }
+.banner-btn a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
 
 /* web dev section styles  */
 #web-dev {
@@ -100,7 +104,6 @@ body {
    background: rgba(13, 19, 33, 0.02);
    margin: 74px auto;
 }
-
 .web-dev-title {
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
@@ -108,7 +111,6 @@ body {
    font-weight: 800;
    line-height: 37px;
 }
-
 .web-dev-description {
    color: rgb(13, 19, 33);
    font-family: Azeret Mono;
@@ -119,6 +121,7 @@ body {
    margin-bottom: 48px;
    opacity: 0.7;
 }
+
 /* web-content-1 styles  */
 .web-content-1 {
    display: flex;
@@ -144,9 +147,7 @@ body {
    margin-bottom: 32px;
    opacity: 0.7;
 }
-
 .web-content-btn {
-   color: rgb(13, 19, 33);
    font-family: Azeret Mono;
    font-size: 20px;
    font-weight: 600;
@@ -158,6 +159,11 @@ body {
    opacity: 0.7;
    padding: 12px 20px 12px 20px;
    background :transparent;
+}
+.web-content-btn a {
+   color: rgb(13, 19, 33);
+   text-decoration: none;
+   cursor: pointer;
 
 }
 
@@ -216,7 +222,62 @@ body {
    border-radius: 16px;
 
 }
-
 .inspiration-video iframe {
    border-radius: 16px;
+}
+
+
+/* target section styles  */
+
+#target {
+   width: 1140px;
+   margin: 0 auto;
+}
+.target-cards {
+   display: flex;
+   gap: 24px;
+}
+.target-cards .card {
+   border-radius: 16px;
+   padding: 40px;
+   width: 364px;
+}
+#card-1 {
+   background: rgba(255, 76, 30, 0.05);
+}
+#card-2 {
+   background: rgba(0, 76, 232, 0.05);
+}
+#card-3 {
+   background: rgba(255, 223, 0, 0.05);
+}
+.target-img {
+   width: 56px;
+   height: 56px;
+   padding-bottom: 24px;
+}
+.target-card-title {
+   padding-bottom: 8px;
+   color: rgb(13, 19, 33);
+   font-size: 24px;
+   font-weight: 800;
+   line-height: 36px;
+}
+.target-card-description {
+   color: rgb(13, 19, 33);
+   padding-bottom: 24px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+}
+.target-card-btn {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 19px;
+   border: none;
+   background: transparent;
+}
+.target-card-btn a {
+   color: rgb(13, 19, 33);
+   cursor: pointer;
 }
