@@ -1,9 +1,13 @@
 /* google fonts- Azeret Mono */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+ /* univarsal style  */
 * {
    padding: 0;
    margin: 0;
+}
+body {
+   font-family: Azeret Mono;
 }
 
 /* shared styles  */
@@ -12,6 +16,24 @@
 }
 .text-margin {
    margin-left: 32px;
+}
+
+
+.title-text {
+   color: rgb(13, 19, 33);
+   font-size: 32px;
+   font-weight: 800;
+   line-height: 37px;
+}
+
+.description-text {
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   margin-top: 24px;
+   margin-bottom: 48px;
+   opacity: 0.7;
 }
 
 /* banner styles */
@@ -54,6 +76,7 @@
    font-weight: 400;
    line-height: 26px;
    margin-bottom: 24px;
+   opacity: 0.7;
 }
 
 .banner-btn {
@@ -94,6 +117,7 @@
    line-height: 26px;
    margin-top: 24px;
    margin-bottom: 48px;
+   opacity: 0.7;
 }
 /* web-content-1 styles  */
 .web-content-1 {
@@ -118,6 +142,7 @@
    font-weight: 400;
    line-height: 26px;
    margin-bottom: 32px;
+   opacity: 0.7;
 }
 
 .web-content-btn {
@@ -169,4 +194,29 @@
 .web-content-img-3 {
    width: 240px;
    height: 240px;
+}
+
+/* inspiration styles  */
+
+#inspiration {
+   margin-top: 88px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.inspiration-video {
+   display: block;
+   margin: 0 auto;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.2);
+   border-radius: 16px;
+   padding: 32px;
+   margin-bottom: 149px;
+   border-radius: 16px;
+
+}
+
+iframe {
+   border-radius: 16px;
 }
